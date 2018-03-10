@@ -1,0 +1,84 @@
+<%= stylesheet_link_tag    'application', media: 'all' %>
+ <%= javascript_include_tag 'application' %>
+
+dropdowns {
+position: absolute;
+top: 30px;
+background-color: #fff;
+border: 1px solid color;
+border-radius: 20px;
+z-index: 1;
+color: whitesmoke;
+font-family: sans-serif;
+text-align: left;
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+div {
+transition: background-color 0.5s ease;
+background-color: red;
+}
+div:hover {
+background-color: green;
+}
+
+text-transform: uppercase, lowercase;
+
+list-style, etc.: initial;
+
+vertical-align: bottom, baseline
+
+justify-content: space-between, space-around;
+
+first-of-type, last-of-type
+ul >
+
+
+@media all and (max/min-width: 500px;)
+
+margin-left: calc(-20vw + 20%), calc(100% - 80px)
+overflow-x: hidden, visible;
+
+transition: max-width 100ms;
+
+position: relative, absolute;
+
+/* Attribute selector targeting all elements
+with a class attribute containing 'col-' */
+[class*='col-']
+[class^='col-']
+[class#='-umn']
+
+margin: 0 auto;
+
+object-fit: fill contain cover none;
+object-position: 50% 50%;
+
+
+Clearfix
+.group:after {
+content: "";
+display: block;
+clear: both;
+}
+
+-webkit, -moz-
+
+reset csss
+
+html, body, header, nav, h1, h2, h3, a,
+ul, li, strong, main, button,
+section, img, div, span, p, form, label, input {
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+color: inherit;
+text-align: inherit;
+text-decoration: inherit;
+vertical-align: inherit;
+box-sizing: inherit;
+background: transparent;
+}
